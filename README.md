@@ -9,19 +9,19 @@ Clone the new repository to your computer.
 
 Push your changes to GitHub.
 
-#Files
+# Files
 Download the following files to help you get started:
 
-#Module 19 Challenge filesLinks to an external site.
+# Module 19 Challenge filesLinks to an external site.
 
-#Instructions
+# Instructions
 Rename the Crypto_Clustering_starter_code.ipynb file as Crypto_Clustering.ipynb.
 
 Load the crypto_market_data.csv into a DataFrame.
 
 Get the summary statistics and plot the data to see what the data looks like before proceeding.
 
-#Prepare the Data
+# Prepare the Data
 Use the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 
 Create a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
@@ -86,10 +86,10 @@ Color the graph points with the labels found using K-means.
 Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 Answer the following question:
 What is the impact of using fewer features to cluster the data using K-Means?
-rewind
+# Rewind
 Recall that you learned how to create composite plots in a previous module. If you need a refresher on how to create these plots, review that module. You can also check Composing PlotsLinks to an external site. in the hvPlot documentation.
 
-#Requirements
+# Requirements
 Find the Best Value for k by Using the Scaled DataFrame (15 points)
 To receive all points, you must:
 
@@ -113,7 +113,7 @@ Create a copy of the scaled DataFrame, and then add a new column of the predicte
 Using hvPlot, create a scatter plot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents. (4 points)
 
 Optimize the Clusters with Principal Component Analysis (10 points)
-To receive all points, you must:
+# To receive all points, you must:
 
 Create a PCA model instance, and set n_components=3. (1 point)
 
@@ -132,7 +132,7 @@ Code the elbow method algorithm, and use the scaled PCA DataFrame to find the be
 
 To visually identify the optimal value for k, plot a line chart of all the inertia values computed with the different values of k. (5 points)
 
-Answer the following questions: What's the best value for k when using the scaled PCA DataFrame? Does it differ from the best value for k that you found by using the original scaled DataFrame? (3 points)
+# Answer the following questions: What's the best value for k when using the scaled PCA DataFrame? Does it differ from the best value for k that you found by using the original scaled DataFrame? (3 points)
 
 Cluster the Cryptocurrencies with K-means by Using the PCA DataFrame (10 points)
 To receive all points, you must:
@@ -147,7 +147,7 @@ Create a copy of the scaled PCA DataFrame, and then add a new column of the pred
 
 Using hvPlot, create a scatter plot by setting x="PC1" and y="PC2". Color the graph points with the labels that you found by using K-means. Then add the crypto name to the hover_cols parameter to identify the cryptocurrency that each data point represents. (4 points)
 
-Visualize and Compare the Results (15 points)
+# Visualize and Compare the Results (15 points)
 To receive all points, you must:
 
 Create a composite plot by using hvPlot and the plus sign (+) operator to compare the elbow curve that you created from the original scaled DataFrame with the one that you created from the scaled PCA DataFrame. (5 points)
@@ -167,7 +167,7 @@ Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusabl
 
 Use concise logic and creative engineering where possible. (2 points)
 
-#Deployment and Submission (10 points)
+# Deployment and Submission (10 points)
 To receive all points, you must:
 
 Submit a link to a GitHub repository that's cloned to your local machine and that contains your files. (4 points)
